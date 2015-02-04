@@ -1,0 +1,1 @@
+C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.GameContent\obj\x86\Debug\Paul.PhysicsSimulator.GameContent.contentprojResolveAssemblyReference.cache

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6dcd195e-fe2f-4c4f-b157-5d05ca16eb39" name="Paolo@PC-PAOLO 2015-01-31 12:24:55" runUser="Pc-Paolo\Paolo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="896913ae-bd1c-4f3f-84d8-788ed216ec52">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Paolo_PC-PAOLO 2015-01-31 12_24_55">
+      <DeploymentItem filename="C:\Paul.PhysicsSimulator.Game\src\packages\DocumentFormat.OpenXml.2.5\lib\DocumentFormat.OpenXml.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Game.dll" />
+      <DeploymentItem filename="C:\Paul.PhysicsSimulator.Game\src\Paul.PhysicsSimulator.Engine\bin\Debug\Paul.PhysicsSimulator.Engine.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-01-31T12:24:55.3089703+01:00" queuing="2015-01-31T12:24:58.0321247+01:00" start="2015-01-31T12:24:58.8120334+01:00" finish="2015-01-31T12:25:08.5102439+01:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="5" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="4" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="PC-PAOLO" outcome="Error" timestamp="2015-01-31T12:25:08.5082413+01:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Cube_GetPointInWorldSpace_NotCentered_OK" storage="c:\paul.physicssimulator.game\src\paul.physicssimulator.unittest\bin\debug\paul.physicssimulator.unittest.dll" id="8cc7f1ee-f569-35ba-e8ec-cd77e60b5e74">
+      <Execution id="dbb55878-86b2-4905-afa0-cb38a4f55019" />
+      <TestMethod codeBase="C:/Paul.PhysicsSimulator.Game/src/Paul.PhysicsSimulator.UnitTest/bin/Debug/Paul.PhysicsSimulator.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Paul.PhysicsSimulator.UnitTest.RigidBodyTest, Paul.PhysicsSimulator.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Cube_GetPointInWorldSpace_NotCentered_OK" />
+    </UnitTest>
+    <UnitTest name="Test_ParticleSpring_Update" storage="c:\paul.physicssimulator.game\src\paul.physicssimulator.unittest\bin\debug\paul.physicssimulator.unittest.dll" id="05bb5865-1c96-b3c0-ee87-5b9a292904ad">
+      <Execution id="68b0552f-34e5-4311-93f8-c2cbeaa46488" />
+      <TestMethod codeBase="C:/Paul.PhysicsSimulator.Game/src/Paul.PhysicsSimulator.UnitTest/bin/Debug/Paul.PhysicsSimulator.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Paul.PhysicsSimulator.UnitTest.ForceGeneratorsTest, Paul.PhysicsSimulator.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_ParticleSpring_Update" />
+    </UnitTest>
+    <UnitTest name="Cube_GetPointInWorldSpace_Centered_OK" storage="c:\paul.physicssimulator.game\src\paul.physicssimulator.unittest\bin\debug\paul.physicssimulator.unittest.dll" id="fcb1799a-c1d1-e725-c551-fc515d4b6f61">
+      <Execution id="0ad4204d-8f06-4152-b858-33fc93a8e2c2" />
+      <TestMethod codeBase="C:/Paul.PhysicsSimulator.Game/src/Paul.PhysicsSimulator.UnitTest/bin/Debug/Paul.PhysicsSimulator.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Paul.PhysicsSimulator.UnitTest.RigidBodyTest, Paul.PhysicsSimulator.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Cube_GetPointInWorldSpace_Centered_OK" />
+    </UnitTest>
+    <UnitTest name="TestFIle" storage="c:\paul.physicssimulator.game\src\paul.physicssimulator.unittest\bin\debug\paul.physicssimulator.unittest.dll" id="e0e07afc-e2eb-25f2-254e-995f62f78daf">
+      <DeploymentItems>
+        <DeploymentItem filename="ExpectedData\" outputDirectory="ExpectedData\" />
+      </DeploymentItems>
+      <Execution id="b0fe95f0-b7c5-41fe-98e6-ba85cc776e01" />
+      <TestMethod codeBase="C:/Paul.PhysicsSimulator.Game/src/Paul.PhysicsSimulator.UnitTest/bin/Debug/Paul.PhysicsSimulator.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Paul.PhysicsSimulator.UnitTest.ForceGeneratorsTest, Paul.PhysicsSimulator.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestFIle" />
+    </UnitTest>
+    <UnitTest name="Test_NearEquals" storage="c:\paul.physicssimulator.game\src\paul.physicssimulator.unittest\bin\debug\paul.physicssimulator.unittest.dll" id="87f064a2-6fc4-d3ce-e422-50dba06e1e3d">
+      <Execution id="df073ba7-ff5c-4e21-af29-e4c08fc3327f" />
+      <TestMethod codeBase="C:/Paul.PhysicsSimulator.Game/src/Paul.PhysicsSimulator.UnitTest/bin/Debug/Paul.PhysicsSimulator.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Paul.PhysicsSimulator.UnitTest.ForceGeneratorsTest, Paul.PhysicsSimulator.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_NearEquals" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="05bb5865-1c96-b3c0-ee87-5b9a292904ad" executionId="68b0552f-34e5-4311-93f8-c2cbeaa46488" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="87f064a2-6fc4-d3ce-e422-50dba06e1e3d" executionId="df073ba7-ff5c-4e21-af29-e4c08fc3327f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8cc7f1ee-f569-35ba-e8ec-cd77e60b5e74" executionId="dbb55878-86b2-4905-afa0-cb38a4f55019" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0e07afc-e2eb-25f2-254e-995f62f78daf" executionId="b0fe95f0-b7c5-41fe-98e6-ba85cc776e01" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fcb1799a-c1d1-e725-c551-fc515d4b6f61" executionId="0ad4204d-8f06-4152-b858-33fc93a8e2c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="68b0552f-34e5-4311-93f8-c2cbeaa46488" testId="05bb5865-1c96-b3c0-ee87-5b9a292904ad" testName="Test_ParticleSpring_Update" computerName="PC-PAOLO" duration="00:00:08.9717308" startTime="2015-01-31T12:24:59.5385131+01:00" endTime="2015-01-31T12:25:08.5102439+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="68b0552f-34e5-4311-93f8-c2cbeaa46488">
+    </UnitTestResult>
+    <UnitTestResult executionId="df073ba7-ff5c-4e21-af29-e4c08fc3327f" testId="87f064a2-6fc4-d3ce-e422-50dba06e1e3d" testName="Test_NearEquals" computerName="PC-PAOLO" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="df073ba7-ff5c-4e21-af29-e4c08fc3327f">
+    </UnitTestResult>
+    <UnitTestResult executionId="dbb55878-86b2-4905-afa0-cb38a4f55019" testId="8cc7f1ee-f569-35ba-e8ec-cd77e60b5e74" testName="Cube_GetPointInWorldSpace_NotCentered_OK" computerName="PC-PAOLO" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dbb55878-86b2-4905-afa0-cb38a4f55019">
+    </UnitTestResult>
+    <UnitTestResult executionId="b0fe95f0-b7c5-41fe-98e6-ba85cc776e01" testId="e0e07afc-e2eb-25f2-254e-995f62f78daf" testName="TestFIle" computerName="PC-PAOLO" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b0fe95f0-b7c5-41fe-98e6-ba85cc776e01">
+    </UnitTestResult>
+    <UnitTestResult executionId="0ad4204d-8f06-4152-b858-33fc93a8e2c2" testId="fcb1799a-c1d1-e725-c551-fc515d4b6f61" testName="Cube_GetPointInWorldSpace_Centered_OK" computerName="PC-PAOLO" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ad4204d-8f06-4152-b858-33fc93a8e2c2">
+    </UnitTestResult>
+  </Results>
+</TestRun>

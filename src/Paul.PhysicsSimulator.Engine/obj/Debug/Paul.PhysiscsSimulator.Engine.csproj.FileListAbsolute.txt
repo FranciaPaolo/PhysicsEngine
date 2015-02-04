@@ -1,0 +1,13 @@
+C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysiscsSimulator.Engine\bin\Debug\Paul.PhysiscsSimulator.Engine.dll
+C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysiscsSimulator.Engine\bin\Debug\Paul.PhysiscsSimulator.Engine.pdb
+C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysiscsSimulator.Engine\bin\Debug\Microsoft.Xna.Framework.dll
+C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysiscsSimulator.Engine\bin\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysiscsSimulator.Engine\bin\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysiscsSimulator.Engine\bin\Debug\Microsoft.Xna.Framework.xml
+C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysiscsSimulator.Engine\bin\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysiscsSimulator.Engine\bin\Debug\Microsoft.Xna.Framework.Graphics.xml
+C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysiscsSimulator.Engine\bin\Debug\it-IT\Microsoft.Xna.Framework.resources.dll
+C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysiscsSimulator.Engine\bin\Debug\it-IT\Microsoft.Xna.Framework.Game.resources.dll
+C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysiscsSimulator.Engine\obj\Debug\Paul.PhysiscsSimulator.Engine.dll
+C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysiscsSimulator.Engine\obj\Debug\Paul.PhysiscsSimulator.Engine.pdb
+C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysiscsSimulator.Engine\obj\Debug\Paul.PhysiscsSimulator.Engine.csprojResolveAssemblyReference.cache

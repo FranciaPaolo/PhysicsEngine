@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="680f6531-f3e9-441d-b2ce-5f70c086fc6a" name="Paolo@PC-PAOLO 2015-01-31 12:25:16" runUser="Pc-Paolo\Paolo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="896913ae-bd1c-4f3f-84d8-788ed216ec52">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Paolo_PC-PAOLO 2015-01-31 12_25_16">
+      <DeploymentItem filename="C:\Paul.PhysicsSimulator.Game\src\packages\DocumentFormat.OpenXml.2.5\lib\DocumentFormat.OpenXml.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Game.dll" />
+      <DeploymentItem filename="C:\Paul.PhysicsSimulator.Game\src\Paul.PhysicsSimulator.Engine\bin\Debug\Paul.PhysicsSimulator.Engine.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-01-31T12:25:16.2047191+01:00" queuing="2015-01-31T12:25:19.1544139+01:00" start="2015-01-31T12:25:20.0660207+01:00" finish="2015-01-31T12:27:11.8283528+01:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="PC-PAOLO" outcome="Warning" timestamp="2015-01-31T12:25:16.3352830+01:00">
+        <Text>Deployment is currently disabled. The deployment item 'ExpectedData\' on test 'Paul.PhysicsSimulator.UnitTest.ForceGeneratorsTest.TestFIle' was not deployed.</Text>
+      </RunInfo>
+      <RunInfo computerName="PC-PAOLO" outcome="Error" timestamp="2015-01-31T12:27:11.8273517+01:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestFIle" storage="c:\paul.physicssimulator.game\src\paul.physicssimulator.unittest\bin\debug\paul.physicssimulator.unittest.dll" id="e0e07afc-e2eb-25f2-254e-995f62f78daf">
+      <DeploymentItems>
+        <DeploymentItem filename="ExpectedData\" outputDirectory="ExpectedData\" />
+      </DeploymentItems>
+      <Execution id="d77c2637-1ba1-4445-be39-365ddc3d785c" />
+      <TestMethod codeBase="C:/Paul.PhysicsSimulator.Game/src/Paul.PhysicsSimulator.UnitTest/bin/Debug/Paul.PhysicsSimulator.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Paul.PhysicsSimulator.UnitTest.ForceGeneratorsTest, Paul.PhysicsSimulator.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestFIle" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e0e07afc-e2eb-25f2-254e-995f62f78daf" executionId="d77c2637-1ba1-4445-be39-365ddc3d785c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d77c2637-1ba1-4445-be39-365ddc3d785c" testId="e0e07afc-e2eb-25f2-254e-995f62f78daf" testName="TestFIle" computerName="PC-PAOLO" duration="00:01:50.8365869" startTime="2015-01-31T12:25:20.9917659+01:00" endTime="2015-01-31T12:27:11.8283528+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d77c2637-1ba1-4445-be39-365ddc3d785c">
+    </UnitTestResult>
+  </Results>
+</TestRun>

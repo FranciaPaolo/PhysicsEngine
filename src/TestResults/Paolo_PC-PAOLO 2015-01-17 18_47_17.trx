@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5470ae95-2d14-4f47-a424-730b8787d3a8" name="Paolo@PC-PAOLO 2015-01-17 18:47:17" runUser="Pc-Paolo\Paolo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="896913ae-bd1c-4f3f-84d8-788ed216ec52">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Paolo_PC-PAOLO 2015-01-17 18_47_17">
+      <DeploymentItem filename="C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Engine\bin\Debug\Paul.PhysicsSimulator.Engine.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Game.dll" />
+      <DeploymentItem filename="C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\packages\DocumentFormat.OpenXml.2.5\lib\DocumentFormat.OpenXml.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-01-17T18:47:17.5524865+01:00" queuing="2015-01-17T18:47:17.6662814+01:00" start="2015-01-17T18:47:17.6752869+01:00" finish="2015-01-17T18:47:18.4608085+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Cube_GetPointInWorldSpace_OK" storage="c:\personale\mine\c#\xna\gaming\3d\simulazionefisica\paul.physicssimulator.game\paul.physicssimulator.unittest\bin\debug\paul.physicssimulator.unittest.dll" id="3c0aa066-f625-8141-80e4-2a482b6439f6">
+      <Execution id="36e9588a-1852-4534-b0af-7de42ce73362" />
+      <TestMethod codeBase="C:/Personale/Mine/C#/Xna/Gaming/3d/SimulazioneFisica/Paul.PhysicsSimulator.Game/Paul.PhysicsSimulator.UnitTest/bin/Debug/Paul.PhysicsSimulator.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Paul.PhysicsSimulator.UnitTest.RigidBodyTest, Paul.PhysicsSimulator.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Cube_GetPointInWorldSpace_OK" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3c0aa066-f625-8141-80e4-2a482b6439f6" executionId="36e9588a-1852-4534-b0af-7de42ce73362" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="36e9588a-1852-4534-b0af-7de42ce73362" testId="3c0aa066-f625-8141-80e4-2a482b6439f6" testName="Cube_GetPointInWorldSpace_OK" computerName="PC-PAOLO" duration="00:00:00.4055874" startTime="2015-01-17T18:47:17.6802911+01:00" endTime="2015-01-17T18:47:18.4377932+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36e9588a-1852-4534-b0af-7de42ce73362">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;{X:-4 Y:-4 Z:-4}&gt;. Actual:&lt;{X:4 Y:4 Z:4}&gt;. </Message>
+          <StackTrace>   in Paul.PhysicsSimulator.UnitTest.RigidBodyTest.Cube_GetPointInWorldSpace_OK() in C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.UnitTest\RigidBodyTest.cs:riga 29
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

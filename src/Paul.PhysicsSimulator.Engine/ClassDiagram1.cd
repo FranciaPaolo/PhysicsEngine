@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Paul.PhysicsSimulator.Engine.Gaming.PhysicsGame">
+    <Position X="14.25" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQQBAAAEAEIAoIAAACAAAAAAAAAAEAEAAAAAJAgAAA=</HashCode>
+      <FileName>Gaming\PhysicsGame.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Components" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Paul.PhysicsSimulator.Engine.Gaming.RenderManager" Collapsed="true">
+    <Position X="12" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEACAAAAAgAAAAAAAAAACAAAgAAAQAAAAAAIABA=</HashCode>
+      <FileName>Gaming\RenderManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paul.PhysicsSimulator.Engine.Physics.RigidBodies.RigidBodyWorld" Collapsed="true">
+    <Position X="12.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAEAAAAAAAAAAiAAAAAwgAAAAIAAAAEAAAA=</HashCode>
+      <FileName>Physics\RigidBodies\RigidBodyWorld.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Paul.PhysicsSimulator.Engine.Gaming.IGameComponent">
+    <Position X="8.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Gaming\IGameComponent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Paul.PhysicsSimulator.Engine.Gaming.IDrawable" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Gaming\IDrawable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

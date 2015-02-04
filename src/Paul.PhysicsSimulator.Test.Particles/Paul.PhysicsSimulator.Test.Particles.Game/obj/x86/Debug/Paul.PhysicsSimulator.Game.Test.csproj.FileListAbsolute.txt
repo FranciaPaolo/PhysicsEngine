@@ -1,0 +1,15 @@
+C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Game\obj\x86\Debug\Paul.PhysicsSimulator.Game.Test.csprojResolveAssemblyReference.cache
+C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Game\bin\x86\Debug\Content\Effect\TextureColor.xnb
+C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Game\bin\x86\Debug\Content\Effect\OneColor.xnb
+C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Game\bin\x86\Debug\Content\Fonts\info1.xnb
+C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Game\bin\x86\Debug\Content\Fonts\info2.xnb
+C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Game\bin\x86\Debug\Content\Models\Cubo.xnb
+C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Game\bin\x86\Debug\Content\Models\Sfera.xnb
+C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Game\bin\x86\Debug\Paul.PhysicsSimulator.Game.exe
+C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Game\bin\x86\Debug\Paul.PhysicsSimulator.Game.pdb
+C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Game\obj\x86\Debug\Paul.PhysicsSimulator.Game.exe
+C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Game\obj\x86\Debug\Paul.PhysicsSimulator.Game.pdb
+C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Game\bin\x86\Debug\Paul.PhysicsSimulator.Engine.dll
+C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Game\bin\x86\Debug\Paul.PhysicsSimulator.Engine.pdb
+C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Game\bin\x86\Debug\Paul.PhysicsSimulator.Engine.xml

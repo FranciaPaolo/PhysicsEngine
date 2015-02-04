@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{44200738-7F16-4BFB-A58A-00E1167E9C0E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Paul.PhysicsSimulator.Engine</RootNamespace>
+    <AssemblyName>Paul.PhysicsSimulator.Engine</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Paul.PhysicsSimulator.Engine.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.GamerServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Gaming\IGameComponent.cs" />
+    <Compile Include="Gaming\IUpdateable.cs" />
+    <Compile Include="Gaming\PhysicsGame.cs" />
+    <Compile Include="Gaming\RenderManager.cs" />
+    <Compile Include="Graphics\SplashScreen\ISelectableMenu.cs" />
+    <Compile Include="Graphics\SplashScreen\SimpleSelectMenu.cs" />
+    <Compile Include="Graphics\SplashScreen\Text2dDoubleRows.cs" />
+    <Compile Include="Graphics\SplashScreen\Text2d.cs" />
+    <Compile Include="Graphics\Camera\FPSCameraMover.cs" />
+    <Compile Include="Graphics\Shapes\Cube.cs" />
+    <Compile Include="Gaming\IDrawable.cs" />
+    <Compile Include="Graphics\Shapes\Rectangle.cs" />
+    <Compile Include="Graphics\Shapes\Sphera.cs" />
+    <Compile Include="Graphics\Camera\CameraMoveable.cs" />
+    <Compile Include="Graphics\Camera\ICamera.cs" />
+    <Compile Include="Graphics\Utility\CartesianAxis.cs" />
+    <Compile Include="Physics\Collision\ParticleContact.cs" />
+    <Compile Include="Physics\Collision\ParticleContactResolver.cs" />
+    <Compile Include="Physics\Collision\ParticleLink.cs" />
+    <Compile Include="Physics\Collision\ParticleRod.cs" />
+    <Compile Include="Physics\Collision\SfereContactGenerator.cs" />
+    <Compile Include="Physics\Commons\IPhysicsObject.cs" />
+    <Compile Include="Physics\Particles\IComponentParticle.cs" />
+    <Compile Include="Physics\RigidBodies\IComponentRigidBody.cs" />
+    <Compile Include="Physics\RigidBodies\RigidBodyWorld.cs" />
+    <Compile Include="Physics\Explosion\ExplosionManager.cs" />
+    <Compile Include="Physics\Explosion\ExplosionSetting.cs" />
+    <Compile Include="Physics\Explosion\ParticleExplosion.cs" />
+    <Compile Include="Physics\Force\IForceGenerator.cs" />
+    <Compile Include="Physics\Force\DragForce.cs" />
+    <Compile Include="Physics\Force\ForceRegistry.cs" />
+    <Compile Include="Physics\Force\GravityForce.cs" />
+    <Compile Include="Physics\Force\SpringForce.cs" />
+    <Compile Include="Physics\Particles\Particle.cs" />
+    <Compile Include="Physics\Particles\ParticleWorld.cs" />
+    <Compile Include="Physics\RigidBodies\RigidBody.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\ReadOnlyDictionary.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

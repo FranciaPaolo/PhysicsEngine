@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b8f020bb-37c1-42cc-ad01-bee86cb1c038" name="Paolo@PC-PAOLO 2015-01-31 12:07:28" runUser="Pc-Paolo\Paolo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="896913ae-bd1c-4f3f-84d8-788ed216ec52">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Paolo_PC-PAOLO 2015-01-31 12_07_28">
+      <DeploymentItem filename="C:\Paul.PhysicsSimulator.Game\src\packages\DocumentFormat.OpenXml.2.5\lib\DocumentFormat.OpenXml.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Game.dll" />
+      <DeploymentItem filename="C:\Paul.PhysicsSimulator.Game\src\Paul.PhysicsSimulator.Engine\bin\Debug\Paul.PhysicsSimulator.Engine.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-01-31T12:07:28.0781403+01:00" queuing="2015-01-31T12:07:28.7335788+01:00" start="2015-01-31T12:07:28.7796098+01:00" finish="2015-01-31T12:07:29.6822050+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test_ParticleSpring_Update" storage="c:\paul.physicssimulator.game\src\paul.physicssimulator.unittest\bin\debug\paul.physicssimulator.unittest.dll" id="05bb5865-1c96-b3c0-ee87-5b9a292904ad">
+      <Execution id="dadf01e1-467c-4138-aee7-5be8793b0e3b" />
+      <TestMethod codeBase="C:/Paul.PhysicsSimulator.Game/src/Paul.PhysicsSimulator.UnitTest/bin/Debug/Paul.PhysicsSimulator.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Paul.PhysicsSimulator.UnitTest.ForceGeneratorsTest, Paul.PhysicsSimulator.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_ParticleSpring_Update" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="05bb5865-1c96-b3c0-ee87-5b9a292904ad" executionId="dadf01e1-467c-4138-aee7-5be8793b0e3b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="dadf01e1-467c-4138-aee7-5be8793b0e3b" testId="05bb5865-1c96-b3c0-ee87-5b9a292904ad" testName="Test_ParticleSpring_Update" computerName="PC-PAOLO" duration="00:00:00.3641936" startTime="2015-01-31T12:07:28.7916156+01:00" endTime="2015-01-31T12:07:29.6391795+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dadf01e1-467c-4138-aee7-5be8793b0e3b">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Paul.PhysicsSimulator.UnitTest.ForceGeneratorsTest.Test_ParticleSpring_Update threw exception: 
+System.Data.OleDb.OleDbException: "C:\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.UnitTest\ExpectedData\Spring simulation.xlsx" non è un percorso valido. Assicurarsi che il nome del percorso sia corretto e di essere collegati al server in cui si trova il file.</Message>
+          <StackTrace>    in System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   in System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   in System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal&amp; connection)
+   in System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   in System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   in System.Data.OleDb.OleDbConnection.Open()
+   in Paul.PhysicsSimulator.UnitTest.Utilities.ExcelUtility.ReadExcelFile(String filePath) in C:\Paul.PhysicsSimulator.Game\src\Paul.PhysicsSimulator.UnitTest\Utilities\ExcelUtility.cs:riga 167
+   in Paul.PhysicsSimulator.UnitTest.ExpectedData.get_ParticleSpring_Data() in C:\Paul.PhysicsSimulator.Game\src\Paul.PhysicsSimulator.UnitTest\ExpectedData.cs:riga 24
+   in Paul.PhysicsSimulator.UnitTest.ForceGeneratorsTest.Test_ParticleSpring_Update() in C:\Paul.PhysicsSimulator.Game\src\Paul.PhysicsSimulator.UnitTest\ForceGeneratorsTest.cs:riga 47
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

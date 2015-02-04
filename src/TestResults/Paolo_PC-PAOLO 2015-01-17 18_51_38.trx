@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ce6510e3-5297-4122-a597-b24a574bbd63" name="Paolo@PC-PAOLO 2015-01-17 18:51:38" runUser="Pc-Paolo\Paolo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="896913ae-bd1c-4f3f-84d8-788ed216ec52">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Paolo_PC-PAOLO 2015-01-17 18_51_38">
+      <DeploymentItem filename="C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\Paul.PhysicsSimulator.Engine\bin\Debug\Paul.PhysicsSimulator.Engine.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Game.dll" />
+      <DeploymentItem filename="C:\Personale\Mine\C#\Xna\Gaming\3d\SimulazioneFisica\Paul.PhysicsSimulator.Game\packages\DocumentFormat.OpenXml.2.5\lib\DocumentFormat.OpenXml.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-01-17T18:51:38.9321529+01:00" queuing="2015-01-17T18:51:39.0683413+01:00" start="2015-01-17T18:51:39.0783432+01:00" finish="2015-01-17T18:51:39.5166341+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Cube_GetPointInWorldSpace_NotCentered_OK" storage="c:\personale\mine\c#\xna\gaming\3d\simulazionefisica\paul.physicssimulator.game\paul.physicssimulator.unittest\bin\debug\paul.physicssimulator.unittest.dll" id="8cc7f1ee-f569-35ba-e8ec-cd77e60b5e74">
+      <Execution id="e5a8b635-49d8-4a6f-89a1-63d2ab831c78" />
+      <TestMethod codeBase="C:/Personale/Mine/C#/Xna/Gaming/3d/SimulazioneFisica/Paul.PhysicsSimulator.Game/Paul.PhysicsSimulator.UnitTest/bin/Debug/Paul.PhysicsSimulator.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Paul.PhysicsSimulator.UnitTest.RigidBodyTest, Paul.PhysicsSimulator.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Cube_GetPointInWorldSpace_NotCentered_OK" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8cc7f1ee-f569-35ba-e8ec-cd77e60b5e74" executionId="e5a8b635-49d8-4a6f-89a1-63d2ab831c78" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e5a8b635-49d8-4a6f-89a1-63d2ab831c78" testId="8cc7f1ee-f569-35ba-e8ec-cd77e60b5e74" testName="Cube_GetPointInWorldSpace_NotCentered_OK" computerName="PC-PAOLO" duration="00:00:00.0315427" startTime="2015-01-17T18:51:39.0833508+01:00" endTime="2015-01-17T18:51:39.4966255+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e5a8b635-49d8-4a6f-89a1-63d2ab831c78">
+    </UnitTestResult>
+  </Results>
+</TestRun>
