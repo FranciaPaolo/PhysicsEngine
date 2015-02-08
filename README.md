@@ -1,2 +1,2 @@
 # PhysicsEngine
-Paul simple Physics Engine written in C# using Microsoft Xna framework
+Simple Physics Engine written in C# using Microsoft Xna framework
